@@ -1,5 +1,5 @@
 # prom2jsonrs
-A (very) simple utility to parse promethues data as json. Insipred from the Golang tool [prom2json](https://github.com/prometheus/prom2json)
+A (very) simple utility to parse promethues data as json. Inspired from the Golang tool [prom2json](https://github.com/prometheus/prom2json)
 
 ## Example Usage
 ```
