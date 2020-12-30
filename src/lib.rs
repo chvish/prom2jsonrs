@@ -55,6 +55,7 @@ struct MetricFamily {
 }
 
 #[derive(Serialize)]
+/// A parsed representation of the prometheus metrics data
 pub struct PrometheusData {
     metrics: Vec<MetricFamily>,
 }
@@ -253,6 +254,7 @@ impl MetricFamily {
 }
 
 impl PrometheusData {
+    /// Parse promethues metric data from string
     pub fn from_string(s: &str) -> PrometheusData {
         let mut metrics = Vec::new();
         let mut metric_lines = Vec::new();
